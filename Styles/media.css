@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@media screen and (max-width: 800px) {
+  header {
+    padding: 0;
+  }
+  header .right-header {
+    padding: 2rem !important;
+  }
+}
+@media screen and (max-width: 800px) and (max-width: 800px) {
+  .controls {
+    position: absolute;
+    flex-direction: row !important;
+    bottom: 0;
+    top: unset;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 28rem;
+  }
+  .control {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .control i {
+    font-size: 1rem !important;
+  }
+}
+@media (max-width: 400px) {
+  .controls {
+    margin-top: 20rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-title h2 {
+    font-size: 28px;
+  }
+}
+/* Responzivan stil za malu širinu ekrana za abouth me*/
+@media screen and (max-width: 600px) {
+  .main-title h2 {
+    font-size: 24px;
+  }
+  .abouth {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .main-title .bg-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 1176px) {
+  .abouth-container {
+    flex-direction: column; /* Promena rasporeda elemenata na vertikalni (jedan ispod drugog) na malim uređajima */
+    align-items: center; /* Centriramo sadržaj u sekciji */
+    text-align: center;
+  }
+  .abouth-container .btn-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .abouth-container .left-abouth {
+    flex-basis: 100%; /* Pun širina ekrana za sadržaj na malim uređajima */
+    margin-bottom: 20px; /* Dodajemo razmak ispod sadržaja */
+    padding-bottom: 0; /* Uklanjamo padding ispod sadržaja */
+  }
+  .abouth-container .theme-btn {
+    position: absolute;
+    top: 12%;
+  }
+  .abouth-container .right-abouth {
+    flex-basis: 100%; /* Pun širina ekrana za sadržaj na malim uređajima */
+  }
+  .abouth-container .about-item {
+    grid-template-columns: repeat(1, 1fr); /* Postavljamo jedan stupac za kockice na malim uređajima */
+  }
+  .abouth-container .abt-text {
+    text-align: center; /* Centriramo tekst unutar kockica na malim uređajima */
+  }
+  /* Responzivan stil za malu širinu ekrana */
+}
+@media screen and (max-width: 1176px) and (max-width: 800px) {
+  .progress-bars {
+    display: flex;
+    flex-direction: column;
+  }
+  .progress-bar {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 1176px) and (max-width: 800px) {
+  .timeline-containers {
+    display: flex;
+    flex-direction: column;
+  }
+  .timeline-container {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .portfolio .main-title h2 {
+    font-size: 1.8rem;
+  }
+}
+.portfolio .main-title h2 {
+  text-align: center;
+}
+
+.portfolio .main-title .port-text {
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 400px) {
+  .portfolio .main-title .port-text {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-title h2 {
+    font-size: 1.8rem;
+  }
+  .main-paragraf p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .custom-hr {
+    margin: 1rem auto;
+  }
+}/*# sourceMappingURL=media.css.map */
